@@ -1,11 +1,13 @@
 import "./armors.css";
 
-function Armors ({parts, description_title}) {
+
+function Armors ({parts, image_part_armor}) {
 
     return(
-          <div className="cards-parts">{parts}</div>
-
+          <div className="cards-armors"
+            style={{background: `url(${image_part_armor})`}} >{parts}</div>
     );
 }
 
 export default Armors;
+

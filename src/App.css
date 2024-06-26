@@ -4,50 +4,30 @@ body {
     font-family: 'Ruwudu', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.title-section {
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 0 0 0;
-}
-
-.background-weapons {
     background-image: url("./images/fondo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.background-card-armor {
-    border: solid;
-    border-color: #000000;
-    border-width: 3px;
-    border-radius: 5%;
-    border-style: groove;
-    max-height: 450px;
-    max-width: 950px;
-    margin: 10px;
-    padding: 5px 0px;
-    background-size:cover;
-    background-position-x: center;
-    background-position-y: -20px;
-    transition: 0.9s cubic-bezier(0, 0.59, 0.68, 0.91);
-    background-image: url("./images/fondoArmors.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/*-------------WEAPONS PART*/
+
+.title-section-weapons {
+    text-align: center;
+    margin-bottom: 0;
+}
+.cards-weapons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0 0;
 }
 
-.parts-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+/*-------------ARMOR PART*/
+
+.title-section-armor {
+    text-align: center;
+    margin-bottom: 0;
 }
+

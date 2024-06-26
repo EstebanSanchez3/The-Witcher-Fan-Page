@@ -17,15 +17,14 @@ import rune1 from "./images/rune1.png";
 import rune2 from "./images/rune2.png";
 /*images armors page*/
 import Armors from "./component/armors.jsx";
+import armor_back1 from "./images/armor_back1.jpg";
 
 function App() {
   return (
-    //Weapon cards page
-    //Weapons
     <div>
-      <div className="background-weapons">
-        <h1 className="title-section">Pertrechos de Brujo</h1>
-        <div className="cards">
+      {/*--------------WEAPONS------------------*/}
+        <h1 className="title-section-weapons">Pertrechos de Brujo</h1>
+        <div className="cards-weapons">
           <Weapons
             initialBackGround={swordsImage}
             hoverBackGround={geraltBackImage}
@@ -54,9 +53,9 @@ function App() {
           />
         </div>
 
-        {/*Improvements*/}
-        <h1 className="title-section">Mejoras de Campo</h1>
-        <div className="cards">
+        {/*--------------IMPROVEMENTS------------------*/}
+        <h1 className="title-section-weapons">Mejoras de Campo</h1>
+        <div className="cards-weapons">
           <Weapons
             initialBackGround={oil1}
             /*hoverBackGround= {oil2}*/
@@ -76,24 +75,15 @@ function App() {
             description_text_one=" las runas mejoran estadísticas específicas y aplican mejoras a las espadas, son complementos de mejora"
           />
         </div>
-      </div>
+  
 
-      {/*Armors*/}
-      <div className="background-card-armor">
-      <h1 className="title-section">Partes de Armadura</h1>
-      <div className="parts-container">
-        <Armors
-          parts="Guanteletes"
-        />
-        <Armors
-          parts="Coraza"
-        />
-        <Armors
-          parts="Pantalones"
-        />
-        <Armors
-          parts="Botas"
-        />
+      {/*--------------ARMOR------------------*/}
+    <div>
+      <h1 className="title-section-armor">Partes de Armadura</h1>    
+        <div>
+          <Armors
+            image_part_armor={armor_back1}
+          />
         </div>
       </div>
 
