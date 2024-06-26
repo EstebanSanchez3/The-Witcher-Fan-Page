@@ -1,0 +1,17 @@
+
+
+.cards-parts {
+    border: solid;
+    border-color: #000000;
+    border-width: 3px;
+    border-radius: 5%;
+    border-style: groove;
+    height: 150px;
+    width: 405px;
+    margin: 5px;
+    padding: 5px 0px;
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: -20px;
+    transition: 0.9s cubic-bezier(0, 0.59, 0.68, 0.91);
+}
