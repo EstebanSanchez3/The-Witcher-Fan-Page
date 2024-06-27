@@ -4,10 +4,6 @@ body {
     font-family: 'Ruwudu', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("./images/fondo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 /*-------------WEAPONS PART*/
@@ -25,9 +21,28 @@ body {
 
 
 /*-------------ARMOR PART*/
-
+.content-armor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url("./images/fondoArmors.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-armor{
+    background-position-y:top;
+}
 .title-section-armor {
     text-align: center;
     margin-bottom: 0;
+}
+.description-text-armor{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: silver;
 }
 
